@@ -8,10 +8,13 @@ static const Block blocks[] = {
   {"",      "news",             0,  6},
   {"",      "yaypackages",      0,  8},
   {"",      "volume",           0,  10},
+  {"",      "memory",           10, 14},
+  {"",      "disk",             10, 18},
   {"",      "keymap",           10, 12},
   {"",      "internet",         5,  4},
+  {"",      "sb-traffic",       1,  16},
   /* {"",      "weathernow",       3600,  5}, */
-  {"",      "clock",                                                    60, 1},
+  {"",      "clock",            60, 1},
   {"",      "i3strategyzer",    60, 8}
   /* {"",      "date '+%b %d (%a) %I:%M%p'",                               5,  0}, */
 };
