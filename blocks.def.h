@@ -4,18 +4,19 @@ static const Block blocks[] = {
   /* {"M:",    "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",  30, 0}, */
 
   {"",      "cat /tmp/recordingicon 2>/dev/null",  0,  9},
+  {"",      "st-mpd",           0,  11},
+  {"",      "i3strategyzer",    60, 8},
   {"",      "battery",          5,  3},
   {"",      "news",             0,  6},
   {"",      "yaypackages",      0,  8},
   {"",      "volume",           0,  10},
-  {"",      "memory",           10, 14},
-  {"",      "disk",             10, 18},
-  {"",      "keymap",           10, 12},
+  /* {"",      "memory",           10, 14}, */
+  /* {"",      "disk",             10, 18}, */
+  /* {"",      "keymap",           10, 12}, */
   {"",      "internet",         5,  4},
-  {"",      "sb-traffic",       1,  16},
+  /* {"",      "sb-traffic",       1,  16}, */
   /* {"",      "weathernow",       3600,  5}, */
   {"",      "clock",            60, 1},
-  {"",      "i3strategyzer",    60, 8}
   /* {"",      "date '+%b %d (%a) %I:%M%p'",                               5,  0}, */
 };
 
